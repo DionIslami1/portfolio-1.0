@@ -1,0 +1,29 @@
+.wrapper {
+  border: 1px solid red;
+  color: aliceblue;
+  width: 1000px;
+  margin: 20px auto;
+
+  .header {
+    border: 1px solid #fff;
+    height: 70px;
+    margin-bottom: 20px;
+  }
+
+  .banner {
+    border: 5px solid green;
+    border-radius: 15px;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 75px;
+      }
+
+    .contentBanner {
+      border-left: 3px solid red;
+      padding-left: 1rem;
+      width: 75%;
+
+    }
+  }
+}
